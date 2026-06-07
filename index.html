@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ayush Kushwaha — Portfolio</title>
+  <meta name="description" content="Portfolio of Ayush Kushwaha — B.Tech CSE student, developer, cybersecurity enthusiast, and cinematographer." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,600&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+
+  <!-- Atmospheric overlays -->
+  <div class="grain"></div>
+  <div class="spotlight" id="spotlight"></div>
+
+  <!-- ── HEADER / NAV ── -->
+  <header class="site-header" id="siteHeader">
+    <a class="brand" href="#hero">Ayush</a>
+    <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-label="Toggle navigation">
+      <span></span>
+      <span></span>
+    </button>
+    <nav class="site-nav" id="siteNav">
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#awards">Awards</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ── HERO ── -->
+    <section id="hero">
+      <div class="hero-reel"></div>
+      <div class="hero-eyeline"></div>
+      <div class="hero-filmstrip" id="filmstrip"></div>
+
+      <div class="hero-body">
+        <div class="hero-copy">
+          <p class="hero-label">B.Tech CSE &middot; ABES Engineering College &middot; Ghaziabad</p>
+          <h1 class="hero-name">Ayush<br><em>Kushwaha</em></h1>
+          <p class="hero-tagline">Developer &middot; Cybersecurity Enthusiast &middot; Cinematographer</p>
+          <p class="hero-desc">
+            Designing digital experiences with a coder's logic and a cinematographer's eye.
+            I transform ideas into working solutions — from secure systems to expressive interfaces.
+          </p>
+          <div class="hero-actions">
+            <a class="btn-primary" href="#projects">View Projects</a>
+            <a class="btn-outline" href="#contact">Get in Touch</a>
+          </div>
+        </div>
+
+      
+      <div class="hero-scroll-hint">
+        <div class="scroll-line"></div>
+        <span class="scroll-text">Scroll</span>
+      </div>
+    </section>
+
+    <!-- ── ABOUT ── -->
+    <section id="about" class="reveal">
+      <div class="section-label">01 &mdash; About</div>
+      <div class="about-grid">
+        <div class="about-text">
+          <h2 class="section-title">Building practical solutions with creativity,<br><em>curiosity, and clarity.</em></h2>
+          <p>I'm a <strong>second-year CSE student</strong> at ABES Engineering College who believes the best interfaces are both engineered and <em>felt</em>. My background in cinematography sharpens how I think about composition, pacing, and visual storytelling — skills I carry directly into every project I build.</p>
+          <p>From <strong>cybersecurity internships</strong> to hackathon floors, I thrive at the intersection of how systems work and how people experience them. Whether it's C, Python, or a web stack — I write code that solves real problems and communicates ideas with clarity.</p>
+          <p>I'm committed to continuous learning and contributing meaningfully to every opportunity I pursue. <strong>Languages: English, Hindi.</strong></p>
+        </div>
+        <div class="about-stats">
+          <div class="stat-card reveal">
+            <div class="stat-number">2+</div>
+            <div class="stat-desc">Internships</div>
+          </div>
+          <div class="stat-card reveal">
+            <div class="stat-number">3+</div>
+            <div class="stat-desc">Core Projects</div>
+          </div>
+          <div class="stat-card reveal">
+            <div class="stat-number">8+</div>
+            <div class="stat-desc">Technical Skills</div>
+          </div>
+          <div class="stat-card reveal">
+            <div class="stat-number">∞</div>
+            <div class="stat-desc">Curiosity</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── EDUCATION ── -->
+    <section id="education" class="reveal alt-bg">
+      <div class="section-label">02 &mdash; Education</div>
+      <h2 class="section-title">A strong academic base<br><em>supporting hands-on growth.</em></h2>
+      <div class="edu-timeline">
+        <article class="edu-item reveal">
+          <div class="edu-marker"></div>
+          <div class="edu-content">
+            <p class="edu-school">ABES Engineering College, Ghaziabad</p>
+            <h3 class="edu-degree">B.Tech in Computer Science Engineering</h3>
+            <p class="edu-meta">Currently pursuing &middot; Second Year</p>
+            <p class="edu-note">Focusing on algorithms, systems, web development, and cybersecurity fundamentals — with active participation in hackathons and technical events.</p>
+          </div>
+        </article>
+        <article class="edu-item reveal">
+          <div class="edu-marker"></div>
+          <div class="edu-content">
+            <p class="edu-school">B.N.S.D Shiksha Niketan, Kanpur</p>
+            <h3 class="edu-degree">Intermediate — UP Board</h3>
+            <p class="edu-meta">Completed &middot; Science Stream</p>
+            <p class="edu-note">Solid academic foundation in mathematics, physics, and analytical problem-solving that now drives my engineering mindset.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ── SKILLS ── -->
+    <section id="skills" class="reveal">
+      <div class="section-label">03 &mdash; Skills</div>
+      <h2 class="section-title">Technical ability supported by<br><em>communication and visual craft.</em></h2>
+      <div class="skills-cols">
+        <div class="skill-group reveal">
+          <div class="skill-group-title">Programming</div>
+          <div class="skill-list">
+            <span class="skill-tag">C</span>
+            <span class="skill-tag">C++</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">MySQL</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <div class="skill-group-title">Web &amp; Tools</div>
+          <div class="skill-list">
+            <span class="skill-tag">Web Development</span>
+            <span class="skill-tag">GitHub</span>
+            <span class="skill-tag">Open Source</span>
+            <span class="skill-tag">Tableau</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <div class="skill-group-title">Creative &amp; Cyber</div>
+          <div class="skill-list">
+            <span class="skill-tag">Cybersecurity</span>
+            <span class="skill-tag">Canva</span>
+            <span class="skill-tag">Video Editing</span>
+            <span class="skill-tag">Cinematography</span>
+          </div>
+        </div>
+        <div class="skill-group skill-group-wide reveal">
+          <div class="skill-group-title">Interpersonal &amp; Leadership</div>
+          <div class="skill-list">
+            <span class="skill-tag">Communication</span>
+            <span class="skill-tag">Teamwork</span>
+            <span class="skill-tag">Leadership</span>
+            <span class="skill-tag">Problem Solving</span>
+            <span class="skill-tag">Event Management</span>
+            <span class="skill-tag">Visual Storytelling</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── EXPERIENCE ── -->
+    <section id="experience" class="reveal alt-bg">
+      <div class="section-label">04 &mdash; Experience</div>
+      <h2 class="section-title">Learning through internships,<br><em>certifications, and team-driven events.</em></h2>
+      <div class="exp-timeline">
+
+        <article class="exp-item reveal">
+          <div class="exp-company">Redynox</div>
+          <div class="exp-role">Cybersecurity Intern</div>
+          <div class="exp-duration">1 Month &middot; Cybersecurity Domain</div>
+          <p class="exp-desc">Gained practical exposure to cybersecurity concepts, ethical hacking methodologies, and real-world security tools. Earned a certification validating skills in network security and vulnerability assessment.</p>
+        </article>
+
+        <article class="exp-item reveal">
+          <div class="exp-company">Pinnacle Labs Pvt.</div>
+          <div class="exp-role">Tech Intern</div>
+          <div class="exp-duration">1 Month</div>
+          <p class="exp-desc">Expanded professional experience through applied technical learning, structured project work, and collaborative development in an industry environment — strengthening both execution and communication skills.</p>
+        </article>
+
+        <article class="exp-item reveal">
+          <div class="exp-company">Wadhwani Foundation</div>
+          <div class="exp-role">Communication Skills Program</div>
+          <div class="exp-duration">Certified Course</div>
+          <p class="exp-desc">Completed a structured program focused on effective speaking and active listening — skills that now inform how I present ideas, lead teams, and collaborate across disciplines.</p>
+        </article>
+
+        <article class="exp-item reveal">
+          <div class="exp-company">HP Power Lab 2.0</div>
+          <div class="exp-role">Online Assessment Participant</div>
+          <div class="exp-duration">Assessment</div>
+          <p class="exp-desc">Cleared HP's competitive online assessment, demonstrating technical aptitude and strong problem-solving ability under timed, structured evaluation.</p>
+        </article>
+
+        <article class="exp-item reveal">
+          <div class="exp-company">Multiple Hackathons</div>
+          <div class="exp-role">Participant &amp; Builder</div>
+          <div class="exp-duration">Ongoing</div>
+          <p class="exp-desc">Regularly participated in hackathons — rapidly prototyping solutions under pressure, exploring unconventional ideas, and strengthening collaboration with multidisciplinary teams.</p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ── PROJECTS ── -->
+    <section id="projects" class="reveal">
+      <div class="section-label">05 &mdash; Projects</div>
+      <h2 class="section-title">A portfolio of work mixing<br><em>logic, craft, and experimentation.</em></h2>
+      <div class="projects-grid">
+
+        <article class="project-card reveal">
+          <div class="project-number">01</div>
+          <div class="project-status status-done">● Completed</div>
+          <div class="project-name">Personal Portfolio Website</div>
+          <p class="project-desc">A visually refined portfolio built to present my profile, projects, and creative strengths in a professional and cinematic way. Merges developer identity with visual storytelling — code as craft.</p>
+          <div class="project-tech">
+            <span class="tech-chip">HTML / CSS</span>
+            <span class="tech-chip">JavaScript</span>
+            <span class="tech-chip">Design</span>
+          </div>
+          <ul class="project-highlights">
+            <li>Structured sections, polished visuals, and responsive layout</li>
+            <li>Cinematography-inspired aesthetic with custom interactions</li>
+          </ul>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-number">02</div>
+          <div class="project-status status-done">● Completed</div>
+          <div class="project-name">Guessing Game in C</div>
+          <p class="project-desc">A command-line number guessing game demonstrating mastery of control flow, user input handling, loops, conditionals, and interactive logic design using C fundamentals.</p>
+          <div class="project-tech">
+            <span class="tech-chip">C Language</span>
+            <span class="tech-chip">CLI</span>
+            <span class="tech-chip">Logic Design</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-number">03</div>
+          <div class="project-status status-wip">◌ In Progress</div>
+          <div class="project-name">Online Compiler</div>
+          <p class="project-desc">A web-based compiler that lets users write, run, and test code directly in the browser — exploring how execution workflows and interfaces come together into something truly accessible for learners.</p>
+          <div class="project-tech">
+            <span class="tech-chip">Web Dev</span>
+            <span class="tech-chip">Python</span>
+            <span class="tech-chip">Backend</span>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ── AWARDS ── -->
+    <section id="awards" class="reveal alt-bg">
+      <div class="section-label">06 &mdash; Awards &amp; Recognition</div>
+      <h2 class="section-title">Moments that shaped my<br><em>creative confidence and leadership.</em></h2>
+      <div class="awards-grid">
+
+        <article class="award-card reveal">
+          <span class="award-icon">🎬</span>
+          <div class="award-title">Erudit International Fest — Winner</div>
+          <p class="award-body">Won the <strong>cinematography category</strong> at Erudit International Fest, demonstrating both technical filmmaking skill and a refined eye for visual narrative and composition.</p>
+        </article>
+
+        <article class="award-card reveal">
+          <span class="award-icon">🔐</span>
+          <div class="award-title">Cybersecurity Certification — Redynox</div>
+          <p class="award-body">Earned a <strong>certification in cybersecurity</strong> through the Redynox internship, validating practical skills in ethical hacking, network security, and vulnerability assessment.</p>
+        </article>
+
+        <article class="award-card reveal">
+          <span class="award-icon">🎙️</span>
+          <div class="award-title">Wadhwani Foundation — Communication</div>
+          <p class="award-body">Completed structured training in <strong>effective speaking and active listening</strong>, strengthening professional communication and interpersonal skills that inform every collaboration.</p>
+        </article>
+
+        <article class="award-card reveal">
+          <span class="award-icon">🏛️</span>
+          <div class="award-title">Event Organizer &amp; Coordinator</div>
+          <p class="award-body">Organized and managed <strong>multiple technical, cultural, and social events</strong> — handling logistics, team coordination, promotion, and participant engagement from start to finish.</p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ── CONTACT ── -->
+    <section id="contact" class="reveal">
+      <div class="contact-inner">
+        <div class="section-label centered-label">07 &mdash; Contact</div>
+        <h2 class="section-title text-center">Let's create something<br><em>meaningful and well-crafted.</em></h2>
+        <p class="contact-lead">
+          I'm always open to learning opportunities, collaborations, internships, and projects that combine technology with thoughtful design. Whether it's a conversation about film, code, or both — reach out.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:ayush.kushwaha2505@gmail.com" class="contact-item">
+            <span class="contact-item-label">Email</span>
+            <span class="contact-item-val">ayush.kushwaha2505@gmail.com</span>
+          </a>
+          <a href="tel:+918604725840" class="contact-item">
+            <span class="contact-item-label">Phone</span>
+            <span class="contact-item-val">+91 86047 25840</span>
+          </a>
+          <div class="contact-item">
+            <span class="contact-item-label">Location</span>
+            <span class="contact-item-val">43 Mainawati Marg, Azad Nagar<br>Kanpur, Uttar Pradesh</span>
+          </div>
+        </div>
+        <a href="mailto:ayush.kushwaha2505@gmail.com" class="btn-primary">Say Hello &rarr;</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ── FOOTER ── -->
+  <footer class="site-footer">
+    <span class="footer-copy">&copy; <span id="year"></span> Ayush Kushwaha &middot; Crafted with code, composition, and curiosity.</span>
+    <span class="footer-name">Ayush Kushwaha</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
